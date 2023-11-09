@@ -6,4 +6,5 @@ const color = prompt('Inserisci il tuo colore preferito');
 
 const date = name + ' ' + cognome + ' ' + color;
 
-document.getElementById('info_user').innerHTML=  ' i dati dell\'utente sono: ' + date;
+document.getElementById('text').innerHTML=  ' I dati dell\'utente sono: ' ;
+document.getElementById('date_user').innerHTML=  date; 
